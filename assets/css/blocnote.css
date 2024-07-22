@@ -1,0 +1,74 @@
+.bg-1 {
+    background-color: #007377;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Pour éviter toute barre de défilement horizontale causée par des éléments débordants */
+}
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1, h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    color: #f7e5d4;
+}
+
+.pg { /* couleur texte */
+    color: #f7e5d4;
+    font-family: rubik;
+}
+
+.pg-2 {
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+}
+
+/* pont infos */
+.custom-shadow{
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #fcfcfc;
+    color: #333;
+    padding: 20px 0;
+}
+
+.footer h4 {
+    color: #000;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer .social-icons i {
+    color: #555;
+    font-size: 24px;
+}
